@@ -4,9 +4,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    dbgLog(@"Build",currentVersion());
+//    dbgLog(@"Build %@",currentVersion());
     
-    [[[BSAlert alloc] initWithTitle:@"Welcome to Luscher" message:@"Pick a color" delegate:nil cancelButtonTitle:@"Okay"otherButtonTitles:nil] show];
+//    [[[BSAlert alloc] initWithTitle:@"Welcome to Luscher" message:@"Pick a color" delegate:nil cancelButtonTitle:@"Okay"otherButtonTitles:nil] show];
     
     return YES;
 }

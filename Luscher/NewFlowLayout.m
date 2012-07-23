@@ -4,7 +4,7 @@
 
 #pragma mark - Wake
 - (void)awakeFromNib {
-    self.sectionInset = UIEdgeInsetsMake(15.0, 15.0, 15.0, 15.0);
+    self.sectionInset = UIEdgeInsetsMake(5.0, 6.0, 5.0, 6.0);
 }
 
 #pragma mark - Stuff
